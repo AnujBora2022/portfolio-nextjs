@@ -116,7 +116,7 @@ export default function Navbar() {
             Contact
           </Link>
           <a
-            href="/resume.pdf"
+            href="/AnujBora_Resume.pdf"
             download
             className="hover:text-foreground transition-colors"
           >
