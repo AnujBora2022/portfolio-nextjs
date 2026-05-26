@@ -17,9 +17,9 @@ export const projects = [
   {
     title: "Issue Tracking Application with AI Summary",
     description: "A full-stack issue tracking system with AI-powered messages summary like M.O.M",
-    tech: ["MERN STACK", "LLM"],
+    tech: ["MongoDB","Express", "React", "Node", "LLM"],
     github: "https://github.com/AnujBora2022/Ai-Issue-Tracking-System",
-    // live: "https://project-three.vercel.app",
+    live: "https://ai-issue-tracking-system.vercel.app/",
   },
   {
     title: "SHOPPING SITE",
