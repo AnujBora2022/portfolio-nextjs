@@ -15,9 +15,32 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+// export const metadata: Metadata = {
+//   title: "Anuj Bora | Full Stack Developer",
+//   description: "Anuj Bora | Full Stack Developer",
+
 export const metadata: Metadata = {
-  title: "Anuj Bora | Full Stack Developer",
-  description: "Portfolio of Anuj Bora, Full Stack Developer",
+  title: "Anuj Bora | Full Stack Developer Portfolio",
+  description:
+    "Portfolio of Anuj Bora, a Full Stack Developer skilled in MERN Stack, Next.js, Django, Python, TypeScript, and AI/LLM integration.",
+
+  keywords: [
+    "Anuj Bora",
+    "Full Stack Developer",
+    "MERN Stack Developer",
+    "Next.js Developer",
+    "Django Developer",
+    "Python Developer",
+    "AI Developer",
+    "Portfolio",
+  ],
+
+  openGraph: {
+    title: "Anuj Bora | Full Stack Developer",
+    description:
+      "Explore projects, skills, and experience of Anuj Bora.",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
